@@ -9,7 +9,7 @@ public class DataBaseConnection {
     private static final String USER = "postgres";
     private static final String PASSWORD = "240907";
 
-    public static Connection conectar() {
+    public static Connection getConnection() {
         Connection con = null;
         try {
             con = DriverManager.getConnection(URL, USER, PASSWORD);
