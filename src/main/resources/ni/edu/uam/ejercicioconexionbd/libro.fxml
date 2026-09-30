@@ -47,7 +47,7 @@
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Label>
-            <TextField fx:id="txtId" GridPane.columnIndex="1" />
+            <TextField fx:id="txtID" GridPane.columnIndex="1" />
             <TextField fx:id="txtTitulo" prefHeight="26.0" prefWidth="86.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="txtAutor" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="txtPrecio" GridPane.columnIndex="1" GridPane.rowIndex="4" />
@@ -55,13 +55,14 @@
             <ComboBox fx:id="cmbCategoria" prefHeight="26.0" prefWidth="298.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
-      <TableView fx:id="tblLibros" layoutX="40.0" layoutY="280.0" prefHeight="200.0" prefWidth="487.0">
+      <TableView fx:id="tblLibros" layoutX="40.0" layoutY="280.0" prefHeight="200.0" prefWidth="552.0">
         <columns>
-          <TableColumn fx:id="colId" prefWidth="91.19997787475586" text="ID" />
+          <TableColumn fx:id="colID" prefWidth="91.19997787475586" text="ID" />
           <TableColumn fx:id="colTitulo" prefWidth="100.80001831054688" text="Titulo" />
             <TableColumn fx:id="colCategoria" prefWidth="99.00001525878906" text="Categoria" />
             <TableColumn fx:id="colPrecio" prefWidth="88.79998779296875" text="Precio" />
             <TableColumn fx:id="colStock" prefWidth="99.79998779296875" text="Stock" />
+            <TableColumn fx:id="colAutor" prefWidth="75.0" text="Autor" />
         </columns>
       </TableView>
    </children>

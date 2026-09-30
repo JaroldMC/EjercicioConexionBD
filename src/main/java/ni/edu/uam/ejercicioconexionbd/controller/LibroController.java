@@ -103,7 +103,7 @@ public class LibroController {
 
         }
 
-        // Consulta SQL a ejecutar
+
         String sql = "INSERT INTO libro(titulo, autor, categoria, precio, stock) VALUES (?,?,?,?,?)";
 
         try(
